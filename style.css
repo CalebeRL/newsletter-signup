@@ -37,7 +37,7 @@ body {
 }
 
 #image {
-    background-image: url(./images/illustration-sign-up-mobile.svg);
+    background-image: url(./assets/images/illustration-sign-up-mobile.svg);
     background-position: center;
     height: 17.8rem;
     grid-area: image;
@@ -71,7 +71,7 @@ li {
 }
 
 li:before {
-    content: url('./images/icon-list.svg');
+    content: url('./assets/images/icon-list.svg');
     position: absolute;
     left: -2.5rem;
     
@@ -248,7 +248,7 @@ button:hover {
         grid-area: form;
     }
     #image {
-        background-image: url(./images/illustration-sign-up-desktop.svg);
+        background-image: url(./assets/images/illustration-sign-up-desktop.svg);
         background-position: center;
         height: 100%;
         grid-area: image;
