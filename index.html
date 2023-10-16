@@ -32,22 +32,22 @@
         <form class="form">
             <div class="form-wrapper">
               <label class="label-name">Email address</label>
-              <input type="email" placeholder="email@company.com" required>
+              <input id="input" type="email" placeholder="email@company.com" required>
               <label class="label-invalid">Valid email required</label>
               <button>Subscribe to monthly newsletter</button>
             </div>
         </form> 
 
-        <div id="image"></div>
+        <div class="image"></div>
     </div>
 
-    <div class="sucess-massage hide">
+    <div class="sucess-message hide">
 
-        <img class="icon-success" src="images/icon-success.svg">
+        <div class="icon-success"></div>
 
         <h1>Thanks for subscribing!</h1>
 
-        <p>A confirmation email has been sent to <b>ash@loremcompany.com</b>. 
+        <p>A confirmation email has been sent to <span class="confirmation-email">ash@loremcompany.com</span>. 
         Please open it and click the button inside to confirm your subscription.</p>
 
         <button class="button-dismiss">Dismiss message</button>
